@@ -1,0 +1,116 @@
+
+*{
+  margin: 0;
+  padding: 0 ;
+}
+
+body{
+  font-size: 20px;
+  background-color: rgba(63, 43, 52, 1);
+  color: white;
+}
+
+nav{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(28, 43, 52, 1);
+}
+nav input{
+  width: 300px;
+  padding: 10px;
+  border: none;
+}
+nav button{
+  background-color: rgba(189,19,19,100);
+  padding: 10px;  
+  color: white;
+  border: none;
+}
+nav button:hover,.mealsStr button:hover{
+  background-color: rgba(217,27,27,100);
+  cursor: pointer;
+}
+section{
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;    */
+  text-align: center;
+  z-index: 0;
+  /* font-size: 30px; */
+  margin-top: 20px;
+}
+
+section h3{
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.recipeContainer{
+  width: 100%;
+  /* text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto; */
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 5px;
+}
+/* .recipeContainer h2{
+  
+} */
+.mealsStr{
+  /* margin-left: 50px; */
+  width: 400px;   
+  /* border: 2px solid orange; */
+  background-color: aliceblue;
+  color: black;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.mealsStr img{
+  width: 400px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.mealsStr span{
+  font-weight: 700;
+}
+.mealsStr button{
+  width: 200px;
+  height: 40px;
+  margin: 20px;
+  background-color: rgba(189,19,19,100);
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  border: none;
+  border-radius: 10px;
+}
+
+
+body::-webkit-scrollbar{
+  width: 16px;
+}
+body::-webkit-scrollbar-thumb{
+  background: #a1a1a1;
+}
+body::-webkit-scrollbar-track{
+  background: #ebebeb;
+}
+.recipeDefine{
+  /* border: 2px solid red; */
+  height: 90vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 40px;
+  overflow-y: hidden;
+  line-height: 30px;
+}
+.recipeDefine img{
+  height: 80vh;
+}
